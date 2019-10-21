@@ -1,0 +1,150 @@
+.banner {
+background-image: url(" ../../images/mountain.jpg ");
+background-position: cover;
+background-size: cover;
+background-position: center;
+height: 100vh;
+margin-top: 0px;
+}
+.banner > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+.bouton-banner {
+border: 1px solid white;
+border-radius: 40px;
+padding: 10px;
+margin: 80px auto;
+color: white;
+opacity: 0.8;
+}
+.bouton-banner:hover {
+color: black;
+transition: color 0.3s ease;
+background-color: white;
+opacity: 0.5;
+}
+.text-banner {
+text-align: center;
+margin-top: 100px;
+}
+.banner2 {
+background-image: url("../../images/mountain2.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+margin-bottom: 50px;
+height: 500px;
+border: solid 1px;
+border-radius: 40px;
+}
+.banner2 > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+
+.banner3 {
+background-image: url("../../images/space.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+margin-bottom: 50px;
+height: 500px;
+border: solid 1px;
+border-radius: 40px;
+}
+.banner3 > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+
+
+.banner4 {
+background-image: url("../../images/space3.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+margin-bottom: 50px;
+height: 500px;
+border: solid 1px;
+border-radius: 40px;
+}
+.banner4 > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+
+.banner5 {
+background-image: url("../../images/space4.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+margin-bottom: 50px;
+height: 500px;
+border: solid 1px;
+border-radius: 40px;
+}
+.banner5 > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+
+.banner6 {
+background-image: url("../../images/space5.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+margin-top: 0px;
+margin-bottom: 50px;
+height: 500px;
+border: solid 1px;
+border-radius: 40px;
+}
+.banner6 > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}
+.banner-labs {
+background-image: url(" ../../images/mountain2.png");
+background-position: cover;
+background-size: cover;
+background-position: center;
+height: 100vh;
+margin-top: 0px;
+}
+.banner-labs > h1 {
+font-size: 40px;
+color: white;
+opacity: 0.8;
+text-align: center;
+padding-top: 200px;
+margin: 0px;
+}

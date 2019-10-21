@@ -1,0 +1,322 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+/* Importing component files */
+@import url("components/container-natif.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/social-media.css");
+/*@import url("components/responsive.css");*/
+@import url("components/regroupement.css");
+@import url("components/my-menu.css");
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Overpass', sans-serif;
+font-size: 15px;
+line-height: 1.8;
+letter-spacing: 1px;
+text-align: justify;
+text-decoration: none;
+font-weight: lighter;
+padding: 0;
+margin: 0px;
+}
+a {
+color: #60B96F;
+text-decoration: none;
+}
+a:hover, i:hover {
+color: yellow;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+strong {
+color: #60B96F;
+}
+.linkedin, .facebook, .instagram {
+color: #60B96F;
+}
+span {
+border-bottom: solid;
+border-color: #60B96F;
+border-width: 3px;
+}
+.hello {
+
+background-color: white;
+margin-bottom: 50px;
+padding: 1px 20px 1px 20px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+}
+.hello h2 {
+font-size: 25px;
+}
+.legend {
+	list-style-type: none;
+	padding-left: 0px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.card_white {
+
+background-color: white;
+margin-bottom: 50px;
+padding: 1px 20px 20px 30px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.card_white h2 {
+text-align: center;
+font-size: 25px;
+margin-bottom: 50px;
+}
+.card_white .bulletpoint {
+opacity: 0.7;
+padding-left: 150px;
+}
+.card_white .bulletpoint_studies {
+opacity: 0.7;
+padding-left: 150px;
+}
+.card_white p {
+padding-left: 100px;
+}
+
+.card_white_skills {
+background-color: white;
+margin-bottom: 50px;
+margin-top: 100px;
+padding: 1px 20px 20px 30px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card_white_skills h2 {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+.div1 {
+
+background-color: white;
+margin-bottom: 50px;
+padding: 10px 20px 10px 20px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+}
+.link-hydroponic {
+margin-top: 30px;
+}
+.footer {
+background-color: white;
+margin-bottom: 50px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+text-align: center;
+}
+
+/* test JS vanilla */
+#testpopup {
+box-shadow: none;
+}
+
+
+/*MEDIA QUERY RESPONSIVE*/
+@media (max-width: 4000px) {
+/* For a screen < 4000px, this CSS will be read */
+
+.title_mobile {
+display: none;
+}
+}
+@media (max-width: 960px) {
+/* For a screen < 960px, this CSS will be read */
+.container-natif {
+width: 700px;
+}
+.title_mobile {
+display: none;
+}
+
+.card_white .bulletpoint {
+opacity: 0.7;
+padding-left: 75px;
+}
+.card_white .bulletpoint_studies {
+opacity: 0.7;
+padding-left: 200px;
+}
+.card_white p {
+padding-left: 25px;
+}
+.groupement {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+
+.groupement-enfant {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+
+}
+
+.groupement-enfant{
+flex-basis: 250px;
+margin: 10px;
+flex-grow: 1;
+}
+
+.groupement-enfant img {
+padding-left: 0;
+width: 100px;
+height: 110px;
+}
+
+.groupement-enfant h3 {
+flex-grow: 1;
+text-align: center;
+}
+.card_hobbies {
+flex-direction: row;
+display: flex;
+flex-grow: 1;
+align-items: center;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+padding: 20px;
+margin: 20px;
+}
+.card_hobbies img {
+width: 100px;
+margin-left: 30px;
+
+}
+
+.card_hobbies h3 {
+flex-grow: 1;
+text-align: center;
+margin-right: 10px;
+margin-left: 50px;
+}
+
+}
+@media (max-width: 720px) {
+/* For a screen < 720px, this CSS will be read */
+.container-natif {
+width: 500px;
+}
+.title_mobile {
+display: none;
+}
+.card_white .bulletpoint {
+opacity: 0.7;
+padding-left: 30px;
+}
+.card_white .bulletpoint_studies {
+opacity: 0.7;
+padding-left: 150px;
+}
+
+.card_white p {
+padding-left: 0px;
+text-align: center;
+}
+}
+@media (max-width: 540px) {
+/* For a screen < 540px, this CSS will be read */
+.container-natif {
+width: 300px;
+}
+.banner > h1 {
+font-size: 30px;
+}
+.title_pc {
+display: none;
+}
+.title_mobile {
+display: inline-block;
+}
+
+/*.card-hobbies img {
+width: 100px;
+padding: 2px;
+}*/
+
+.card_hobbies {
+flex-direction: column;
+display: flex;
+flex-grow: 1;
+align-items: center;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+padding: 20px;
+margin: 20px;
+}
+.card_hobbies img {
+width: 100px;
+margin-left: 0px;
+}
+
+.card_hobbies h3 {
+flex-grow: 1;
+text-align: center;
+margin: 0;
+margin-top: 20px;
+}
+
+.card_white .bulletpoint {
+opacity: 0.7;
+padding-left: 15px;
+text-align: left;
+}
+.card_white .bulletpoint_studies {
+opacity: 0.7;
+padding-left: 30px;
+text-align: left;
+}
+.card_white_skills h2 {
+	text-align: center;
+	width: 100%;
+}
+
+
+.card_white p {
+padding-left: 0px;
+text-align: center;
+
+}
+.card img {
+padding-left: 24px;
+}
+.hello h1 {
+font-size: 25px;
+text-align: center;
+}
+/*.groupement-enfant {
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+flex-wrap: wrap;
+}*/
+.card img {
+width: 100px;
+padding-left: 0px;
+}
+}

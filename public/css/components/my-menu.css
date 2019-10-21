@@ -1,0 +1,20 @@
+.my-menu ol {
+list-style-type: none;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.my-menu-item {
+display: inline-block;
+text-align: center;
+padding: 0;
+margin: 0 auto;
+font-size: 15px;
+color: white;
+opacity: 0.8;
+padding-top: 30px;
+}
+.link-my-menu {
+color: white;
+opacity: 0.8;
+}

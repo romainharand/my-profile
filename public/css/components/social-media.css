@@ -1,0 +1,10 @@
+.social-media > li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 50px;
+}
+
+
+.social-media {
+	padding: 0px;
+}

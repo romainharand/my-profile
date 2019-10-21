@@ -1,0 +1,145 @@
+.groupement {
+display: flex;
+flex-wrap: wrap;
+margin: 50px 0px;
+}
+.groupement-enfant{
+flex-basis: 250px;
+flex-grow: 1;
+margin: 10px;
+}
+.groupement-enfant {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+flex-wrap: wrap;
+}
+.groupement-enfant span {
+align-items: flex-start;
+}
+.groupement-enfant img {
+width: 100px;
+height: 110px;
+padding-left: 40px;
+}
+.groupement-enfant h3 {
+flex-grow: 1;
+text-align: center;
+}
+.groupement-enfant:hover{
+	
+}
+.card-hobbies {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+box-shadow: none;
+border-radius: 40px;
+}
+.card-hobbies img {
+width: 100px;
+}
+
+.card_hobbies {
+flex-direction: row;
+display: flex;
+flex-grow: 1;
+align-items: center;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+padding: 20px;
+margin: 20px;
+}
+.card_hobbies img {
+width: 100px;
+margin-left: 100px;
+
+}
+
+.card_hobbies h3 {
+flex-grow: 1;
+text-align: right;
+margin-right: 100px;
+}
+
+
+
+
+/* Test flexbox 
+
+
+.groupement {
+display: flex;
+flex-wrap: wrap;
+margin: 50px 0px;
+}
+.groupement-enfant{
+flex-basis: 250px;
+flex-grow: 1;
+margin: 10px;
+}
+.groupement-enfant {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+flex-wrap: wrap;
+}
+.groupement-enfant span {
+align-items: flex-start;
+}
+.groupement-enfant img {
+width: 100px;
+height: 110px;
+padding-left: 40px;
+}
+.groupement-enfant h3 {
+flex-grow: 1;
+text-align: center;
+}
+
+*/
+
+.groupement-test {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+
+.groupement-enfant-test {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 30px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+border-radius: 40px;
+
+}
+
+.groupement-enfant-test{
+flex-basis: 250px;
+margin: 10px;
+flex-grow: 1;
+}
+
+.groupement-enfant-test img {
+
+width: 100px;
+height: 110px;
+}
+
+.groupement-enfant-test h3 {
+flex-grow: 1;
+text-align: center;
+}
+
