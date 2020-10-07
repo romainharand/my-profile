@@ -74,6 +74,10 @@ app.get('/test-codepen.html', function(req, res){
 
   return res.sendFile(__dirname + "/test-codepen.html");
 });
+app.get('/test-gtag.html', function(req, res){
+
+  return res.sendFile(__dirname + "/test-gtag.html");
+});
 
 
 
