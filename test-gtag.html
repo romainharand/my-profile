@@ -16,9 +16,23 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-129372436-4');
+gtag('config', 'UA-129372436-4'),
+  	{ 'send_page_view': false };
+
+gtag('config', 'UA-129372436-3', 
+  	{ 'send_page_view': false });
+
 </script>
 <!-- End Gtag -->
+<script>
+gtag('event', 'page_view', {
+	page_title: 'test-gtag',
+	page_location: 'test-gtag',
+	page_path: 'test-gtag'
+  })
+
+
+</script>
 
 		<title>Romain Harand - Welcome to my World</title>
 		<meta name="description" content="Mon passé, mon présent et mon futur">
@@ -52,8 +66,8 @@
 		<div class="banner">
 			<nav class="my-menu">
 				<ol>
-					<li class="my-menu-item"><a class="link-my-menu" href="index.html" onclick="">Home</a> |</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#job_experiences" onclick="">Job Experiences</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="index.html" onclick="gtag('event', 'clic_home', {'event_category': 'clicks'});">Home</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#job_experiences" onclick="gtag('event', 'clic_jobExperiences', {'event_category': 'clicks'});">Job Experiences</a> |</li>
 					</li>
 					<li class="my-menu-item"><a class="link-my-menu" href="#skills" onclick="">Skills</a> |</li>
 					</li>
