@@ -16,7 +16,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-gtag('config', 'UA-129372436-4', { 'send_page_view': false });
+gtag('config', 'UA-129372436-4', 
+				{ 'send_page_view': false ,
+					'custom_map': {
+						'dimension1': 'pageCategory',
+						'dimension2': 'visitorType',
+						'dimension3': 'testInteger'
+					}
+					});
+
+
 gtag('config', 'G-TW7TL154PQ', { 'send_page_view': false });
 </script>
 <!-- End Gtag -->
@@ -26,9 +35,21 @@ gtag('config', 'G-TW7TL154PQ', { 'send_page_view': false });
  gtag('event', 'page_view', {
 	page_title: 'test-gtag',
 	page_location: 'test-gtag',
-	page_path: 'test-gtag'
+	page_path: 'test-gtag',
+	pageCategory: 'gtagCategory',
+	visitorType: 'gtagVisitor',
+	testInteger: '123456789'
   })
+</script>
 
+<script>
+gtag('event', 'myCustomEvent', {
+  'event_category': 'Hello',
+  'event_label' : 'You',
+  	pageCategory: 'gtagCategoryEvent',
+	visitorType: 'gtagVisitorEvent',
+	testInteger: '123456789'
+});
 </script>
 
 		<title>Romain Harand - Welcome to my World</title>
