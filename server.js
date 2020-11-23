@@ -78,6 +78,10 @@ app.get('/test-gtag.html', function(req, res){
 
   return res.sendFile(__dirname + "/test-gtag.html");
 });
+app.get('/index-copy.html', function(req, res){
+
+  return res.sendFile(__dirname + "/index-copy.html.html");
+});
 
 
 
