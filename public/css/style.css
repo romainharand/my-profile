@@ -111,6 +111,12 @@ border-radius: 40px;
 box-shadow: 0 10px 30px rgba(0,0,0,.1);
 text-align: center;
 }
+
+.div1 .bulletpoint {
+	opacity: 0.7;
+	padding-left: 150px;
+	}
+
 .link-hydroponic {
 margin-top: 30px;
 }
