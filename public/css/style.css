@@ -102,8 +102,25 @@ box-shadow: 0 10px 30px rgba(0,0,0,.1);
 	font-size: 25px;
 	margin-bottom: 0px;
 }
-.div1 {
 
+.card_white_tools {
+background-color: white;
+margin-bottom: 50px;
+padding: 1px 20px 20px 30px;
+border-radius: 40px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.card_white_tools p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.card_white_tools .bulletpoint {
+	opacity: 0.7;
+	padding-left: 150px;
+	}
+
+.div1 {
 background-color: white;
 margin-bottom: 50px;
 padding: 10px 20px 10px 20px;
@@ -112,10 +129,6 @@ box-shadow: 0 10px 30px rgba(0,0,0,.1);
 text-align: center;
 }
 
-.div1 .bulletpoint {
-	opacity: 0.7;
-	padding-left: 150px;
-	}
 
 .link-hydroponic {
 margin-top: 30px;
@@ -162,6 +175,13 @@ padding-left: 200px;
 .card_white p {
 padding-left: 25px;
 }
+	
+.card_white_tools .bulletpoint {
+	opacity: 0.7;
+	padding-left: 75px;
+		}
+
+
 .groupement {
 display: flex;
 flex-wrap: wrap;
@@ -242,6 +262,12 @@ padding-left: 150px;
 padding-left: 0px;
 text-align: center;
 }
+
+.card_white_tools .bulletpoint {
+	opacity: 0.7;
+	padding-left: 75px;
+		}
+
 }
 @media (max-width: 540px) {
 /* For a screen < 540px, this CSS will be read */
@@ -306,6 +332,12 @@ padding-left: 0px;
 text-align: center;
 
 }
+
+.card_white_tools .bulletpoint {
+	opacity: 0.7;
+	padding-left: 75px;
+		}
+
 .card img {
 padding-left: 24px;
 }
