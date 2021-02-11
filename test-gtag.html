@@ -17,7 +17,8 @@
   gtag('js', new Date());
 
 gtag('config', 'UA-129372436-4', 
-				{ 'send_page_view': false ,
+				{ //'groups': 'agency', 
+				'send_page_view': false ,
 					'custom_map': {
 						'dimension1': 'pageCategory',
 						'dimension2': 'visitorType',
@@ -25,10 +26,15 @@ gtag('config', 'UA-129372436-4',
 					}
 					});
 
-
-gtag('config', 'G-TW7TL154PQ', { 'send_page_view': false });
+//gtag('config','AW-786178873', { 'send_page_view': false });
+//gtag('config', 'G-TW7TL154PQ',  { 'groups': 'agency', 'send_page_view': false }); 
 </script>
 <!-- End Gtag -->
+
+<!-- Test GoogleAds Event Conversion -->
+<script>
+//	gtag('event', 'conversion', {'send_to': 'AW-786178873/ogZCCMawvOgBELnG8PYC'});
+</script>
 
 <!-- Test pageView -->
 <script>
@@ -38,7 +44,11 @@ gtag('config', 'G-TW7TL154PQ', { 'send_page_view': false });
 	page_path: 'test-gtag',
 	pageCategory: 'gtagCategory',
 	visitorType: 'gtagVisitor',
-	testInteger: '123456789'
+	testInteger: '123456789',
+//	send_to: 'agency',
+	send_to: 'UA-129372436-4'
+
+
   })
 </script>
 
@@ -49,12 +59,18 @@ gtag('event', 'myCustomEvent', {
   'event_label' : 'You',
   	pageCategory: 'gtagCategoryEvent',
 	visitorType: 'gtagVisitorEvent',
-	testInteger: '123456789'
+	testInteger: '123456789',
+//	send_to: 'agency'
+	send_to: 'UA-129372436-4'
 });
 </script>
 
+
+  
+
+
 <!-- Test Ecommerce Event -->
-<script>
+<!--  <script>
 	gtag('event', 'purchase', {
   "transaction_id": "24.031608523954162",
   "affiliation": "Google online store",
@@ -87,7 +103,7 @@ gtag('event', 'myCustomEvent', {
     }
   ]
 });
-</script>
+</script>  -->
 
 
 
