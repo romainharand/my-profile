@@ -80,9 +80,12 @@ app.get('/test-gtag.html', function(req, res){
 });
 app.get('/index-copy.html', function(req, res){
 
-  return res.sendFile(__dirname + "/index-copy.html.html");
+  return res.sendFile(__dirname + "/index-copy.html");
 });
+app.get('/test-amp.html', function(req, res){
 
+  return res.sendFile(__dirname + "/test-amp.html");
+});
 
 
 // app.get('/', (req, res) => {
