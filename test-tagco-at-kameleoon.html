@@ -2,31 +2,11 @@
 <html>
 	<head>
 
-<!-- DataLayer -->
-<script>
-  dataLayer = [{
-    'pageCategory': 'signup',
-    'visitorType': 'high-value',
-    'testInteger': '5',
-    'testFloat' : '5,909'
-  }];
-</script>
-<!-- End of DataLayer -->
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MKQPMV3');</script>
-<!-- End Google Tag Manager -->
-
 <!-- DataLayer TagCo -->
 <script>
     window.tc_vars = {
 		page_name: "homepage",
 		env_template: "prod",
-		env_subsite: "1",
 		chapter1: "chapter1",
 		chapter2: "chapter2",
 		chapter3: "chapter3",
@@ -35,16 +15,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		integer: 3,
 		float: 1.3,
 		p_title: "Titre de la page",
-		pagevariable1: "pageVariable1",
-		pagevariable2: "pageVariable2",	
-		pagevariable3: "pageVariable3"
-    }; 
+    };
 </script>
 <!-- End of DataLayer TagCo-->
 
 <!-- CDN TagCo -->
 <script src="https://cdn.tagcommander.com/3340/tc_Converteo_8.js"></script>
 <!-- End CDN TagCo -->
+
+
+
+
+
+
+
+
 
 
 
@@ -76,29 +61,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<body>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKQPMV3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 		<div class="banner">
 			<nav class="my-menu">
 				<ol>
-					<li class="my-menu-item"><a class="link-my-menu" href="index.html" onclick="dataLayer.push({'event': 'clic_home'});">Home</a> |</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#job_experiences" onclick="dataLayer.push({'event': 'clic_job_experiences'});">Job Experiences</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="index.html" onclick="gtag('event', 'clic_home', {'event_category': 'clicks'});">Home</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#job_experiences" onclick="gtag('event', 'clic_jobExperiences', {'event_category': 'clicks'});">Job Experiences</a> |</li>
 					</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#skills" onclick="dataLayer.push({'event': 'clic_skills'});">Skills</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#skills" onclick="">Skills</a> |</li>
 					</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#studies" onclick="dataLayer.push({'event': 'clic_studies'});">Studies</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#studies" onclick="">Studies</a> |</li>
 					</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#hobbies" onclick="dataLayer.push({'event': 'clic_hobbies'});">Hobbies</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#hobbies" onclick="">Hobbies</a> |</li>
 					</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="#passion" onclick="dataLayer.push({'event': 'clic_passion'});">Passion</a> |</li>
-					<li class="my-menu-item"><a class="link-my-menu" href="labs.html" onclick="dataLayer.push({'event': 'clic_labs'});">Labs</a></li>
+					<li class="my-menu-item"><a class="link-my-menu" href="#passion" onclick="">Passion</a> |</li>
+					<li class="my-menu-item"><a class="link-my-menu" href="labs.html" onclick="">Labs</a></li>
 					</li>
 				</ol>
 			</nav>
 			<h1> ⚡ Welcome to my world ⚡ </h1>
-			<div class="text-banner"><a class="bouton-banner" href="#intro" onclick="dataLayer.push({'event': 'clic_decouvrezmoi'});">Discover who I am</a></div>
+			<div class="text-banner"><a class="bouton-banner" href="#intro" onclick="">Discover who I am</a></div>
 		</div>
 		<div class="container-natif">
 			<div class="hello" id="intro">
@@ -106,32 +89,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 			<div class="div1">
 				<img class="pp" src="/images/avatar.png" alt="Photo de Romain Harand">
-				<p>Passionated about <strong>Web/Mobile</strong> and <strong>Data</strong> 📊, this website is like a lab for testing technical Analytics configurations</p>
-				<p>I come from the <strong>Digital Analytics technical tracking implementation world</strong> and developed along the way the <strong>business vision</strong> which help me now to drive from scratch to the final delivery any Data Marketing & Analytics project</p>
-				<p>After <strong>3 years</strong> leading Data Marketing & Analytics Projects through various technologies for multiple companies from different industries, I'm now able to advise any companies on <strong>Digital Analytics scope</strong> (business requirements, technical implementations, dashboards...).</p>
-			</div>	
-				<div class="card_white_tools">
-				<p>👇 Tools that I'm used to work with (from technical implementation / configuration to business insights) 👇</p>
-				<ul class="bulletpoint">
-					<li>Analytics tools : Google Analytics 360 / Google Analytics 4 / ATInternet / Firebase</li>
-					<li>UX Analytics tools : ContentSquare / Hotjar</li>
-					<li>Tag Management Systems : Google Tag Manager 360 / CommandersAct / Tealium</li>
-					<li>CRO & AB tests : Optimize / AB Tasty</li>
-					<li>Advertising tools : CM / SA360 / DV360 / GAM360 / FB...</li>
-					<li>Mobile CRM : Accengage (now Airship)</li>
-					<li>Dataviz : Google Data Studio / PowerBI</li>
-					<li>Algorithmic Attribution : Wizaly</li>
-					<li>Cloud Provider : Google Cloud Platform</li>
-					<li>Data Wharehouse : Google BigQuery</li>
-					<li>Data Quality tools : Seenaptic / Observe Point</li>
-					<li>CMPs : Didomi / IAB framework</li>
-					<li>CFS : Usabilla</li>
-				</ul>
+				<p>Passionated about <strong>Web/Mobile</strong> and <strong>Data</strong> 📊</p>
+				<p>I like to travel and discover different cultures to be more <strong>open-minded</strong> every day 🌎</p>
+				<p>I am also currently passionated about <strong>hydroponic systems</strong>, it is my passion of the moment 🌿 </p>
+				<div class="link-hydroponic">
+					<p>👉 <a class="bouton-circle" href="https://www.potagerme.bio/?utm_source=github_personal_website" target="_blank" onclick="">My Hydroponic Website</a> 👈</p>
 				</div>
-				<div class="div1">
-				<p>Also, I like to travel and discover different cultures to be more <strong>open-minded</strong> every day 🌎</p>
-				<p>I am also currently passionated about <strong>hydroponic, bioponic, aquaponic & permaculture systems</strong>, it is my passion of the moment 🌿 </p>
-				</div>
+			</div>
 			<div class="groupement">
 				<div class="groupement-enfant">
 					<img src="/images/machine.png" alt="learn things">
@@ -162,32 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li>🦊 : Personal Side Project</li>
 					<li>👔 : Employee Experience</li>
 				</ul>
-				<p>👔 @Converteo | <strong>Data Marketing & Analytics</strong> Consultant (2019/10 - Present)</p>
-				<ul class="bulletpoint">
-					<li>Requirements gathering from Product owners / Marketing / Business teams</li>
-					<li>Leading Workshops for strategic KPIs definition, tools recommandations & use cases priorization based on Digital Analytics / CRM / Media advertising technology stack</li>
-					<li>Technical audits on Data collection</li>
-					<li>Edit of Data Analytics tracking plans for Web & Apps regarding the Analytics tools used</li>
-					<li>Technical support for Data Analytics tools & Algorithmic Attribution tool implementation</li>
-					<li>Tag Management System containers configuration</li>
-					<li>Datavisualization Dashboards production through Marketing KPIs</li>
-					<li>Data Analysis and business recommandations</li>
-					<li>CRO & AB tests on both Websites & Apps</li>
-					<li>Teach & knowledge transfer to technical and marketing teams</li>
-				</ul>
-				<p>👔 @Orange | Web & Mobile <strong>Data Analytics</strong> Expert (2017/09 - 2019/09)</p>
-				<ul class="bulletpoint">
-					<li>Strategic KPIs definition & tools recommandations with each projects</li>
-					<li>Edit of all Data Analytics tracking plans (20+)</li>
-					<li>Data Analytics tools implementation on Websites, MobileApps, VRApps & DesktopApps (40+)</li>
-					<li>Tag Management System configuration for mobile apps & websites (30+)</li>
-					<li>Datavisualization Dashboards production through Marketing KPIs (15+)</li>
-					<li>Data Analysis and business recommandations</li>
-					<li>CRM mobile centric implementation (Out of app and Inapp notifications)</li>
-					<li>AB tests on both Websites & Apps</li>
-					<li>Teach and knowledge transfer to technical and marketing teams</li>
-				</ul>
-				<p>🦊 @Potagerme.bio | Enable <strong>Urban Gardening</strong> for everyone (2018/09 - 2019/09)</p>
+				<p>🦊 @Potagerme.bio | Enable <strong>Urban Gardening</strong> for everyone (2018/09 - Present)</p>
 				<ul class="bulletpoint">
 					<li>Website creation through Wordpress & full customization</li>
 					<li>Inside & Outside SEO strategy</li>
@@ -195,6 +134,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<li>Tag Management System implementation and configuration</li>
 					<li>Copywriter through a blog (1 post/week)</li>
 					<li>Hydroponic systems experimentations through indoor gardening (+10kg aromatic herbs)</li>
+				</ul>
+				<p>👔 @Orange | Web & Mobile <strong>Data Analytics</strong> Project Manager (2017/09 - Present)</p>
+				<ul class="bulletpoint">
+					<li>Data Analytics SDK implementation for websites, mobile apps & VR apps (40+)</li>
+					<li>Edit of all Data Analytics tracking plans (20+)</li>
+					<li>Tag Management System configuration for mobile app & website (30+)</li>
+					<li>Marketing KPIs definition with each product owners</li>
+					<li>Data Analysis and advise to marketing teams</li>
+					<li>Datavizualisation Dashboards production through Marketing KPIs</li>
+					<li>Project Management : CRM mobile centric implementation</li>
+					<li>Teach and knowledge transfer to technical and marketing staffs</li>
 				</ul>
 				<p>👔 @SpieCloudServices | <strong>IT</strong> Service Delivery Manager (2014/09 - 2016/09)</p>
 				<ul class="bulletpoint">
@@ -218,6 +168,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<h1> ⚡ Skills ⚡ </h1>
 		</div>
 		<div class="container-natif">
+			<div class="card_white_skills">
+				<h2 class="title_pc"><span>💻 Technical Skills 💻</span></h2>
+				<h2 class="title_mobile"><span>💻 Technical Skills</span></h2>
+			</div>
+			<div class="groupement">
+				<div class="groupement-enfant">
+					<img src="/images/Google_Analytics.png" alt="Google Analytics">
+					<h3>Google Analytics</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/gtm.png" alt="Google Tag Manager">
+					<h3>Google Tag Manager</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/data_studio.png" alt="Google Data Studio">
+					<h3>Google Data Studio</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/firebase.png" alt="firebase">
+					<h3>Firebase</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/Google_Cloud.png" alt="Google Cloud Platform">
+					<h3>Google Cloud Platform</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/tealium.png" alt="Tealium">
+					<h3>Tealium</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/bigquery.png" alt="Google BigQuery">
+					<h3>Google BigQuery</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/sql.png" alt="SQL Queries">
+					<h3>SQL Queries</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/programming.png" alt="Programming Languages">
+					<h3>HTML/CSS/JS</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/wordpress.png" alt="Wordpress">
+					<h3>Wordpress</h3>
+				</div>
+			</div>
+			<div class="card_white_skills">
+				<h2 class="title_pc"><span>📈 Marketing & Business Skills 📈</span></h2>
+				<h2 class="title_mobile"><span>📈 Marketing & Business Skills</span></h2>
+			</div>
+			<div class="groupement">
+				<div class="groupement-enfant">
+					<img src="/images/business_administration.png" alt="Business Administration">
+					<h3>Business Administration</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/market_analysis.png" alt="Market Analysis">
+					<h3>Market Analysis</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/digital_marketing.png" alt="Digital Marketing">
+					<h3>Digital Marketing</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/roi.png" alt="ROI">
+					<h3>ROI mindset</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/project_management.png" alt="Project Management">
+					<h3>Project Management</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/financial_accounting.png" alt="Financial Accounting">
+					<h3>Financial Accounting</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/design_thinking.png" alt="Design Thinking">
+					<h3>Design Thinking</h3>
+				</div>
+				<div class="groupement-enfant">
+					<img src="/images/entrepreneur.png" alt="Entrepreneur">
+					<h3>Entrepreneur mindset</h3>
+				</div>
+			</div>
 			<div class="card_white_skills">
 				<h2 class="title_pc"><span>👤 Soft Skills 👤</span></h2>
 				<h2 class="title_mobile"><span>👤 Soft Skills</span></h2>
@@ -292,9 +326,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<p>🏫 @School of life | <strong>Curiosity</strong> specialization</p>
 				<ul class="bulletpoint_studies">
 					<li>Computing Science</li>
-					<li>Network Architectures</li>
-					<li>Cloud Computing</li>
 					<li>HTML/CSS/JavaScript/SQL</li>
+					<li>Network Architectures</li>
 					<li>Commons Sens</li>
 					<li>Talk in public</li>
 					<li>Be open-minded</li>
@@ -373,6 +406,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="footer">
 				<ul class="social-media">
 					<li><a href="https://www.linkedin.com/in/romain-harand-863b1a84/" target="_blank"> <i class="fab fa-linkedin linkedin"></i></a></li>
+					<li><a href="https://www.instagram.com/romain_harand/" target="_blank"><i class="fab fa-instagram instagram"></i></a></li>
 					<li><a href="https://github.com/romainharand" target="_blank"><i class="fab fa-github github"></i></a></li>
 				</ul>
 			</div>
