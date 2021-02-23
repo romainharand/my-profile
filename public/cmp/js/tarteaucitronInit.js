@@ -1,5 +1,5 @@
 tarteaucitron.init({
-    "privacyUrl": "", /* URL de la politique de confidentialité */
+    "privacyUrl": "www.google.fr", /* URL de la politique de confidentialité */
 
     "hashtag": "#tarteaucitron", /* Ouvrez le panneau avec ce hashtag */
     "cookieName": "tarteaucitron", /* Nom du cookie */
@@ -25,6 +25,16 @@ tarteaucitron.init({
     "mandatory": false /* Afficher un message sur les cookies obligatoires */
 });
 
-// Google Fonts
-tarteaucitron.user.googleFonts = 'families';
-(tarteaucitron.job = tarteaucitron.job || []).push('googlefonts');
+/* AT Internet */
+tarteaucitron.user.atLibUrl = 'toto';
+tarteaucitron.user.atMore = function () { /* add here your optionnal ATInternet.Tracker.Tag configuration */ };
+(tarteaucitron.job = tarteaucitron.job || []).push('atinternethightrack');
+
+/* GTM */
+tarteaucitron.user.googletagmanagerId = 'tata';
+(tarteaucitron.job = tarteaucitron.job || []).push('googletagmanager');
+
+
+/* Kameleoon */
+tarteaucitron.user.kameleoon = '56pan7cuwu';
+(tarteaucitron.job = tarteaucitron.job || []).push('kameleoon');

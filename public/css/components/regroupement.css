@@ -29,9 +29,7 @@ padding-left: 40px;
 flex-grow: 1;
 text-align: center;
 }
-.groupement-enfant:hover{
-	
-}
+
 .card-hobbies {
 display: flex;
 flex-wrap: wrap;
