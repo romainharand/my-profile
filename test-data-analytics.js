@@ -8,6 +8,3 @@ if (tarteaucitron.includes('kameleoon=true')) {
 }
 
 
-
-  var str = document.cookie;
-  var res = str.split(!);
