@@ -6,3 +6,8 @@ if (tarteaucitron.includes('kameleoon=true')) {
   console.log("optout");
   Kameleoon.API.Core.disableLegalConsent();
 }
+
+
+
+  var str = document.cookie;
+  var res = str.split(!);
