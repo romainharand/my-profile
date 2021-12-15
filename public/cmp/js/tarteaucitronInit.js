@@ -26,9 +26,9 @@ tarteaucitron.init({
 });
 
 /* AT Internet */
-tarteaucitron.user.atLibUrl = 'toto';
-tarteaucitron.user.atMore = function () { /* add here your optionnal ATInternet.Tracker.Tag configuration */ };
-(tarteaucitron.job = tarteaucitron.job || []).push('atinternethightrack');
+//tarteaucitron.user.atLibUrl = 'toto';
+//tarteaucitron.user.atMore = function () { /* add here your optionnal ATInternet.Tracker.Tag configuration */ };
+//(tarteaucitron.job = tarteaucitron.job || []).push('atinternethightrack');
 
 /* GTM */
 tarteaucitron.user.googletagmanagerId = 'tata';
@@ -36,5 +36,5 @@ tarteaucitron.user.googletagmanagerId = 'tata';
 
 
 /* Kameleoon */
-tarteaucitron.user.kameleoon = '56pan7cuwu';
-(tarteaucitron.job = tarteaucitron.job || []).push('kameleoon');
+//tarteaucitron.user.kameleoon = '56pan7cuwu';
+//(tarteaucitron.job = tarteaucitron.job || []).push('kameleoon');

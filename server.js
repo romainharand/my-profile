@@ -86,6 +86,10 @@ app.get('/test-amp.html', function(req, res){
 
   return res.sendFile(__dirname + "/test-amp.html");
 });
+app.get('/test-sgtm.html', function(req, res){
+
+  return res.sendFile(__dirname + "/test-sgtm.html");
+});
 
 
 // app.get('/', (req, res) => {
