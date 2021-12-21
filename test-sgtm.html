@@ -11,15 +11,16 @@
 
 <!-- Google Tag Manager -->
 <script>
-const measurement_id = `G-0RH3L68SGW`;
-const api_secret = `IAI7On6bTNS3OhNwDA7s3A`;
+//const measurement_id = `G-0RH3L68SGW`;
+//const api_secret = `IAI7On6bTNS3OhNwDA7s3A`;
 
-fetch(`https://gtm-p6pcrpq-mtbmm.uc.r.appspot.com/mpv2`, {
+fetch(`https://gtm-p6pcrpq-mtbmm.uc.r.appspot.com/mpv2`,  {
+  mode: "no-cors",
   method: "POST",
   body: JSON.stringify({
     client_id: 'aaa',
     events: [{
-      name: 'test_page_view',
+      name: 'test_morgane',
       params: {},
     }]
   })
