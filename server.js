@@ -90,7 +90,18 @@ app.get('/test-sgtm.html', function(req, res){
 
   return res.sendFile(__dirname + "/test-sgtm.html");
 });
+app.get('/page-a.html', function(req, res){
 
+  return res.sendFile(__dirname + "/page-a.html");
+});
+app.get('/page-b.html', function(req, res){
+
+  return res.sendFile(__dirname + "/page-b.html");
+});
+app.get('/page-c.html', function(req, res){
+
+  return res.sendFile(__dirname + "/page-c.html");
+});
 
 // app.get('/', (req, res) => {
 

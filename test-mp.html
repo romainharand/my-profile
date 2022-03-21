@@ -2,30 +2,51 @@
 <html>
 	<head>
 <!-- CMP Tarte au Citron -->
-        <script type="text/javascript" src="/cmp/tarteaucitron.js"></script>
-		<script type="text/javascript" src="/cmp/js/tarteaucitronInit.js"></script>
+
 <!-- Fin CMP Tarte au Citron -->
 
 <!-- DataLayer -->
-<script>
-  dataLayer = [{
-    'pageCategory': 'signup',
-    'visitorType': 'high-value',
-    'testInteger': '5',
-    'testFloat' : '5,909',
-	'customParam1' : 'customParamvalue1',
-	'customParam2' : 'customParamvalue2',
-	'customParam3' : 'customParamvalue3',
-  }];
-</script>
+
 <!-- End of DataLayer -->
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MKQPMV3');</script>
+<script>
+//const measurement_id = `G-0RH3L68SGW`;
+//const api_secret = `IAI7On6bTNS3OhNwDA7s3A`;
+
+//const measurementId = `G-TW7TL154PQ`;
+//const apiSecret = `NnaB7Vb2QWSA5MwEB3X3eg`;
+
+fetch(`https://www.google-analytics.com/mp/collect?api_secret=NnaB7Vb2QWSA5MwEB3X3eg&measurement_id=G-TW7TL154PQ`, {
+  method: "POST",
+  body: JSON.stringify({
+    "client_id": "123456",
+    "events": [{
+      "name": "test_mp_romain",
+      "params": {
+        "level": 5,
+        "character": "Player 1"
+      }
+    }]
+  })
+});
+</script>
+<script>
+fetch(`https://www.google-analytics.com/mp/collect?api_secret=NXtihrEBQPmsZug3iIMPQg&measurement_id=G-CBS086MGB3`, {
+	method: "POST",
+	body: JSON.stringify({
+	  "client_id": "123456",
+	  "events": [{
+		"name": "test_mp_romain",
+		"params": {
+		  "level": 5,
+		  "character": "Player 1"
+		}
+	  }]
+	})
+  });
+  </script>
+
 <!-- End Google Tag Manager -->
 
 
@@ -57,8 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<body>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKQPMV3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
 <!-- End Google Tag Manager (noscript) -->
 
 		<div class="banner">
