@@ -16,12 +16,16 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('consent', 'default', {
-  'ad_storage': 'denied',
-  'analytics_storage': 'denied'
+ gtag('consent', 'default', {
+ 'ad_storage': 'denied',
+ 'analytics_storage': 'denied'
 });
 
-  gtag('config', 'G-TW7TL154PQ',{ 'debug_mode': true });
+  gtag('config', 'G-TW7TL154PQ',{ 
+	'debug_mode': true,
+	'user_id': 'toto@gmail.com',
+	'page_title': 'Travel Destinations',
+	});
 </script>
 <!-- Gtag end -->
 
