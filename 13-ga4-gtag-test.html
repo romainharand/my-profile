@@ -10,13 +10,18 @@
 <!-- End Google Tag Manager -->
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TW7TL154PQ"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-TW7TL154PQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
  gtag('consent', 'default', {
+ 'ad_storage': 'denied',
+ 'analytics_storage': 'denied'
+});
+
+gtag('consent', 'update', {
  'ad_storage': 'denied',
  'analytics_storage': 'denied'
 });
@@ -29,8 +34,14 @@
 </script>
 <!-- Gtag end -->
 
+<!--<script>gtag('event', 'screen_view', {
+  'app_name': 'myAppName',
+  'screen_name': 'Home'
+});</script>-->
+
+
 <!-- Google tag Purchase -->
-<script>
+<!-- <script>
     gtag("event", "purchase", {
         transaction_id: "T_12345_1",
         affiliation: "Google Merchandise Store",
@@ -61,10 +72,11 @@
           item_variant: "green",
           location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
           price: 9.99,
-          quantity: 1
+          quantity: 1,
+          customItemScope: "testItemScope"
         }]
     });
-    </script>
+    </script> -->
 <!-- Google tag Purchase -->
 
 

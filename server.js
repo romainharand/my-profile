@@ -90,17 +90,29 @@ app.get('/test-sgtm.html', function(req, res){
 
   return res.sendFile(__dirname + "/test-sgtm.html");
 });
-app.get('/page-a.html', function(req, res){
+app.get('/1-ga4-page-a.html', function(req, res){
 
-  return res.sendFile(__dirname + "/page-a.html");
+  return res.sendFile(__dirname + "/1-ga4-page-a.html");
 });
-app.get('/page-b.html', function(req, res){
+app.get('/2-ga4-page-b.html', function(req, res){
 
-  return res.sendFile(__dirname + "/page-b.html");
+  return res.sendFile(__dirname + "/2-ga4-page-b.html");
 });
-app.get('/page-c.html', function(req, res){
+app.get('/3-ga4-page-c.html', function(req, res){
 
-  return res.sendFile(__dirname + "/page-c.html");
+  return res.sendFile(__dirname + "/3-ga4-page-c.html");
+});
+app.get('/4-ga4-page-d.html', function(req, res){
+
+  return res.sendFile(__dirname + "/4-ga4-page-d.html");
+});
+app.get('/4-ga4-page-d.html', function(req, res){
+
+  return res.sendFile(__dirname + "/4-ga4-page-d.html");
+});
+app.get('/5-ga4-page-e.html', function(req, res){
+
+  return res.sendFile(__dirname + "/5-ga4-page-e.html");
 });
 
 // app.get('/', (req, res) => {
